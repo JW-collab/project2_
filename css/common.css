@@ -590,7 +590,6 @@ hr{
 
     .part2{
         background-image: url("../images/step1_1.png");
-        margin-right: 20px;
 
     }
 
@@ -604,7 +603,6 @@ hr{
     }
 
     .part3{
-        margin-right: 20px;
         background-image: url("../images/step2_1.png");
     }
 
@@ -613,7 +611,6 @@ hr{
     }
 
     .part4{
-        margin-right: 20px;
         background-image: url("../images/step3_1.png");
     }
 
@@ -638,7 +635,7 @@ hr{
         background-image: url(../images/ending.png);
         background-repeat: no-repeat;
         background-size: cover;
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
     }
