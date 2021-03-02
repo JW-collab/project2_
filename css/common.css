@@ -569,9 +569,6 @@ hr{
     }
 
     .phase5_1{
-        width: 100%;
-        height: 400vh;
-        min-height: inherit;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -580,9 +577,8 @@ hr{
 
     .box{
         width:100%;
-        height: 100vh;
-        min-height: 650px;
-        border: 3px dotted #b7224a;
+        height: 100%;
+        min-height: 600px; 
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -605,6 +601,7 @@ hr{
     }
 
     .part3{
+        margin-top: 24px;
         background-image: url("../images/step2_1.png");
     }
 
@@ -613,6 +610,7 @@ hr{
     }
 
     .part4{
+        margin-top: 24px;
         background-image: url("../images/step3_1.png");
     }
 
@@ -621,6 +619,7 @@ hr{
     }
 
     .part5{
+        margin-top: 24px;
         background-image: url("../images/step4_1.png");
     }
 
@@ -637,7 +636,7 @@ hr{
         background-image: url(../images/ending.png);
         background-repeat: no-repeat;
         background-size: cover;
-        display: block;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -663,7 +662,7 @@ hr{
         grid-column-end:13;
         order: 5;
         background-color: #A4161A;
-        height: 380px;
+        height: 350px;
         padding: 1.2rem 3rem;
         text-align: center; }
 
