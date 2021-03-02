@@ -286,7 +286,6 @@ hr{
     .box{
         width:22%;
         height: 100%;
-        border: 3px dotted #b7224a;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
