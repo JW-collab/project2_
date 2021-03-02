@@ -54,7 +54,7 @@ hr{
 /* common end */
 
 
-@media only screen and (min-width: 412px) {
+@media only screen and (min-width: 768px) {
     
     /* body */
         body{
@@ -412,7 +412,7 @@ hr{
     }
 
 
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 767px) {
         
     /* body */
         body{
@@ -424,6 +424,8 @@ hr{
         }
 
         .container {
+            margin-left: 2.5%;
+            margin-right: 2.5%;
             width:95%;
             display: flex;
             flex-direction: column;
@@ -452,7 +454,6 @@ hr{
 
         .m_img1{
             min-width: 100%;
-
             margin-left: auto;
             margin-right: auto;
         }
@@ -462,25 +463,27 @@ hr{
         .phase2{
             display: flex;
             flex-direction: column;
-            height: 58vh;
-            min-height: 510px;
-            background: linear-gradient(90deg, #161A1D 75%, #A4161A 0%);
+            height: 140vh;
+            background-color: rgba(186, 24, 27, 0.2);
         }
 
 
         .section1{
+            display: flex;
+            flex-direction: column;
             min-width: 100%;
         }
 
         .text1{
             width: 95%;
-            align-content: center;
-            vertical-align: center;
-            min-height: 800px;
+            height: auto;
+            min-height: 600px;
+            margin: 2.5% 3%;
             padding-bottom: 20px;
         }
 
         .m_img2{
+            padding-top: 30px;
             min-width: 100%;
             max-height: 396px;
 
@@ -501,44 +504,48 @@ hr{
     /* phase3 */
         .phase3{
             background-color: #B1A7A6;
-            height: 30vh;
-            min-height: 250px;
+            height: 100vh;
+            min-height: 600px;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-left: 10%;
-            padding-right: 10%;
+            padding-left: 7%;
+            padding-right: 7%;
         }
     /* phase3 end */
 
     /* phase4 */
         .phase4{
-            padding: 4vh 8vh;
+            padding:2.5% 5%;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-image: url("../images/prepare.png");
+            background-image: url("../images/prepare_m.png");
             background-repeat: no-repeat;
-            background-size: cover;
-            height: 58vh;
-            min-height: 500px;
+            background-size: 100% auto;
+            background-position: bottom;
+            background-color: #D3D3D3;
+            height: 100vh;
+            min-height: 600px;
 
             color: #A4161A;
             text-shadow: -2px 0 #F5F3F4, 0 2px #F5F3F4, 2px 0 #F5F3F4, 0 -2px #F5F3F4;
         }
 
         .left_ph4{
-            font-family: 'Permanent Marker', cursive; Font-Size: 4.5rem;
-            line-height: 5.3rem;
-            width:48%;
+            font-family: 'Permanent Marker', cursive; Font-Size: 1.8rem;
+            line-height: 2.3rem;
+            width:100%;
+            padding-bottom: 10px;
         }
 
         .right_ph4{
-            width:48%;
-            margin-left: 4%;
-            Font-Family: 'Overpass', sans-serif; Font-Size: 2rem;
-            line-height: 2.4rem;
+            width:95%;
+            margin-left: 2.5%;
+            Font-Family: 'Overpass', sans-serif; Font-Size: 1.3rem;
+            line-height: 1.8rem;
+            padding-bottom: 20px;
         }
 
         .right_ph4>li{
@@ -549,8 +556,8 @@ hr{
     /* phase5 */
     .phase5{
         width: 100%;
-        height: 20vh;
-        min-height: 140px;
+        height: 30vh;
+        min-height: 200px;
         background-image: linear-gradient(to top, rgba(102,7,8,0.6), rgba(22,26,29,0.2));
         display: flex;
         justify-content: center;
@@ -563,15 +570,15 @@ hr{
 
     .phase5_1{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        height: 66vh;
+        height: 100vh;
         min-height: 650px;
     }
 
 
     .box{
-        width:22%;
+        width:100%;
         height: 100%;
         border: 3px dotted #b7224a;
         background-repeat: no-repeat;
@@ -657,7 +664,7 @@ hr{
         grid-column-end:13;
         order: 5;
         background-color: #A4161A;
-        height: 25vh;
+        height: 380px;
         padding: 1.2rem 3rem;
         text-align: center; }
 
